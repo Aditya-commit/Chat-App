@@ -1,0 +1,71 @@
+<html>
+<head>
+	<title>Username</title>
+	<style>
+		body{
+			background-color: black;
+		}
+		h2{
+			color: rgb(255 255 255);
+		    font-family: system-ui;
+		    font-size: xx-large;
+		}
+		#main_div{
+			text-align: center;
+			height: 100%;
+		}
+		.username_div{
+			position: relative;
+			top: 20%;
+		}
+		#username_input{
+		    outline: none;
+		    border: 2px solid rgb(0 0 0);
+		    width: 50%;
+		    height: 20%;
+		    font-size: xx-large;
+		    font-family: fantasy;
+		    font-weight: bolder;
+		    font-style: unset;
+		    font-variant-caps: titling-caps;
+		    border-radius: 46px;
+		    padding-left: 36px;
+		    padding-right: 36px;
+		    text-align: center;
+		    color: rgb(245 245 245 / 91%);
+		    background-color: rgb(0 0 0);
+		}
+		#username_input:focus{
+			outline: none;
+			border: 2px solid black;
+		}
+		#login_btn{
+			margin-top: 23px;
+			padding-left: 20px;
+			padding-right: 21px;
+			text-align: center;
+			padding-top: 7px;
+			padding-bottom: 8px;
+			font-family: revert;
+			font-size: initial;
+			font-weight: 700;
+			border-radius: 20px;
+			background-color: rgb(0 0 0);
+			color: rgb(255 255 255);
+			cursor: pointer;
+			outline: none;
+		}
+	</style>
+</head>
+<body>
+	<div id='main_div'>
+		<div class='username_div'>
+			<h2>Enter your username</h2>
+			<input type="text" name='username_data' id='username_input' placeholder='username'/>
+			<br />
+			<input type='submit' value='Login' id='login_btn' />
+		</div>
+	</div>
+	<script src="./js_file/chat.js"></script>
+</body>
+</html>
